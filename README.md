@@ -7,7 +7,7 @@ useless.cpp is program,based on binary heap, that allows you to launch couple of
 from just one terminal.
 it should be compiled in executive file "useless" and it takes one file name as an argument.
 File format is:
-time1 name1 arguments1
-time2 name2 arguments2
+time1 space name1 space arguments1 enter
+time2 space name2 space arguments2 enter                                                               
 ...
 (last symbol is "enter")
