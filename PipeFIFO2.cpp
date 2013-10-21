@@ -25,8 +25,8 @@ int main (){
 			else
 				{
 					j++;
-					if (j==10000000)
-					{break;}
+					/*if (j==10000000)
+					{break;}*/
 				}
 		}
 	close(fd);
