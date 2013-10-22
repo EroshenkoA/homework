@@ -17,7 +17,7 @@ if ((fd=open("minififo",O_RDONLY|O_NDELAY))<0)
 		printf("can't open fifo for reading\n"); 
 		exit(-1);
 	}
-char s[N];
+char s[N+1];
 int size;
 int j=0; //-1 branch counter
 while ((size=read(fd,s,N))!=0)
